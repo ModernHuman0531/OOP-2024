@@ -1,6 +1,5 @@
 /*
 Practice a bubble sort class;
-
 */
 #include <iostream>
 using namespace std;
@@ -30,7 +29,7 @@ class BubbleSortArray {
 };
 
 
-void BubbleSortArray::bubbleSort() {
+void BubbleSortArray::bubbleSort() {//
     for (int i = 0; i < size - 1; ++i) {
         for (int j = 0; j < size - i - 1; ++j) {
             if (array[j] > array[j + 1]) {
@@ -49,7 +48,7 @@ void BubbleSortArray::display(){
     cout << endl;
 }
 int* BubbleSortArray::findMax(){
-    return &array[size - 1];
+    return &array[size - 1];//return the adress to let the pointer receive it, the aray after the bubblesort the max number will at the last index of array
 
 }
 
@@ -65,7 +64,7 @@ int main() {
     BubbleSortArray arr(n);
     
     bubble_ptr = &arr ;
-    int *max_ptr = NULL; // point to the max number in array
+    int *max_ptr = NULL; // point to the max number in array,max_ptr store the address of the max number
 
     /*     modify this block is not allowed      */
 
