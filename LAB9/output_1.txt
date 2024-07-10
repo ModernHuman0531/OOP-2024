@@ -1,0 +1,9 @@
+
+Class: CHEMISTRY
+Ben Cindy Emma 
+Class: ENGLISH
+Amy Ben Cindy 
+Class: MATH
+Amy Cindy Emma 
+Class: PHYSICS
+Ben Cindy David 
