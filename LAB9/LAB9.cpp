@@ -49,6 +49,7 @@ void Student::ReadstudentInfo(){
         ifs >> student_name >> class_num;
         for(int j= 0;j < class_num;++j){
             ifs >> subject_name;
+        void PrintstudentInfo();
             student_map[subject_name].push_back(student_name);//check the subject name and push the student name into the vector
         }
     }
