@@ -1,0 +1,11 @@
+10
+ADAR     C    8
+Terry    M    4.7
+Carl     M    3.7
+Shan     P    1.4
+Peter    P    3.3
+Sali     M    5.5
+Anita    P    3.2
+Mindy    P    3
+Mia      P    3.8
+Kate     P    3
